@@ -7,6 +7,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+span {
+    font-weight: 900;
+}
 .card {
     width: 450px;
     height: 600px;
@@ -71,4 +74,19 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
+}
+.box-states-circles {
+    display: flex;
+    margin: 0 10px 0 0;
+}
+.box-states1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.box-text {
+    font-size: small;
+    width: 300px;
+    margin: 0 auto;
+    border: 3px inset #a7c727;
 }
