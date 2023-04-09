@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.card {
+    width: 450px;
+    height: 600px;
+    background-color: rgb(213, 213, 25);
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.card:hover .card-box{
+    background-image: url(https://media.istockphoto.com/id/1024230944/photo/yellow-nature-background.jpg?b=1&s=612x612&w=0&k=20&c=E6wvemodIgyqKf2a3iLsPnm7I8ZYvjBKw20gHeQMyu0=);
+}
+.card:hover {
+    background-image: url(https://media.istockphoto.com/id/1024230944/photo/yellow-nature-background.jpg?b=1&s=612x612&w=0&k=20&c=E6wvemodIgyqKf2a3iLsPnm7I8ZYvjBKw20gHeQMyu0=);
+}
+.card-box {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/946/569/original/abstract-geometric-hexagons-yellow-background-with-diagonal-striped-lines-free-vector.jpg);
+    height: 100%;
+    background-size: cover;
+    padding: 10px 15px;
+}
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-header-right {
+    display: flex;
+}
+.header-right-circle {
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 50%;
+    
+}
+.box-image {
+    display: flex;
+    flex-direction: column;
+}
+.box-image-photo {
+    width: 390px;
+    height: 300px;
+    border: 9px inset yellow;
+}
+.box-image-text {
+    margin: 5px auto;
+    width: 350px;
+    background-color: yellow;
+    background-image: linear-gradient(to right, rgb(141, 158, 55) , yellow);
+    text-align: center;
+}
+.box-states {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 3px solid #000;
+}
+.box-states-circle {
+    background-color: rgb(181, 207, 209);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
